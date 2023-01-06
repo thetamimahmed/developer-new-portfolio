@@ -20,10 +20,10 @@
 /* header styles */
 header {
     background-color: #FFF8F3;
-    padding-top: 30px;
+    padding: 50px 0;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right, left;
+    background-position: bottom right, left bottom;
 }
 
 .nav-container {
@@ -188,11 +188,50 @@ main {
     line-height: 28px;
     color: #757575;
 }
-hr{
+
+hr {
     margin: 30px 0px;
     border: 1px solid #D1D1D1;
 }
-.resume-btn{
+
+.resume-btn {
     text-align: center;
     margin: 50px 0;
+}
+
+/* footer section styles  */
+footer {
+    padding: 50px 200px;
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 28px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-top: 20px;
+}
+.social{
+    margin-top: 30px;
+}
+input[type="text"], [type="email"]{
+    height: 30px;
+}
+input[type="text"], [type="email"], textarea{
+    padding: 18px 5px 18px 20px;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 24px;
+    border: 0;
 }
