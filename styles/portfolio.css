@@ -73,12 +73,50 @@ header {
     font-size: 75px;
     color: #181818;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
     margin: 30px 0px;
 }
-.person-img{
+
+.person-img {
     width: 500px;
+    height: 100%;
+    margin-bottom: -5px;
+}
+
+/* main section styles */
+main {
+    padding: 30px 200px;
+}
+
+/* about-me section styles  */
+.about-me {
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.about-me-title {
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+}
+
+.about-me-description {
+    margin: 30px 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+.about-me-information{
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+}
+.information-title{
+    font-weight: bold;
 }
